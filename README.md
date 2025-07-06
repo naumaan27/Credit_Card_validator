@@ -1,3 +1,4 @@
+
 # Credit Card Validator (Luhn Algorithm)
 
 ## 📜 Description
@@ -18,5 +19,46 @@ This Python project validates credit card numbers using the **Luhn Algorithm**, 
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Requirements
+
+- Python 3.x  
+*(No external libraries are required.)*
+
+---
+
+## 💻 How to Run
+
+```bash
+python main.py
+```
+
+### Example Output:
+```text
+VALID!
+```
+or
+```text
+INVALID!
+```
+
+---
+
+## 🛠️ Code Overview
+
+### Functions:
+- `verify_card_number(card_number)`
+  - Validates the card number using Luhn Algorithm.
+  - Returns `True` if valid, else `False`.
+
+- `main()`
+  - Card number: `'4111-1111-4555-1142'` (hard-coded).
+  - Removes hyphens (`-`) and spaces.
+  - Prints **VALID!** or **INVALID!** based on verification.
+
+---
+
+## 📚 References
+- [Luhn Algorithm - Wikipedia](https://en.wikipedia.org/wiki/Luhn_algorithm)
+
+---
 
